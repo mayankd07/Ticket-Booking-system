@@ -9,7 +9,7 @@ import {
 
 import Home from './pages/Home/Home';
 import Navbar from './Components/Navbar';
-import BookedSeats from './pages/BookedSeats/BookedSeats';
+// import BookedSeats from './pages/BookedSeats/BookedSeats';
 import AvlSeats from './pages/AvlSeats/AvlSeats';
 
 const App = () => {
@@ -24,9 +24,9 @@ const App = () => {
         <Route path="/AvlSeats" exact>
           <AvlSeats/>
         </Route>
-        <Route path="/BookedSeats" exact>
+        {/* <Route path="/BookedSeats" exact>
           <BookedSeats/>
-        </Route>
+        </Route> */}
         
         
         <Redirect to="/" />

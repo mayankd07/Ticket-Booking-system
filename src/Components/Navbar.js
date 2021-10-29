@@ -80,15 +80,15 @@ const Navbar = () => {
               <NavLink className="nav-link" to="/AvlSeats" exact>
                 <i 
                 className="far fa-clone">
-                </i>AvlSeats
+                </i>Show Seats
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/BookedSeats" exact>
+              {/* <NavLink className="nav-link" to="/BookedSeats" exact>
                 <i 
                 className="far fa-chart-bar">
                 </i>BookedSeats
-              </NavLink>
+              </NavLink> */}
             </li>
             
         </ul>
